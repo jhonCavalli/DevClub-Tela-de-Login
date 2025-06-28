@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+
     <title>Dev Club Login</title>
 </head>
 <body>
@@ -11,13 +13,29 @@
             <h1>Login DevClub</h1>
             <div class="input-box">
                 <input placeholder="Usuário" type="email">
+                <i class='bx bx-user'></i>
             </div>
             <div class="input-box">
                 <input placeholder="Senha" type="password">
+                <i class='bx bx-lock alt'></i>
             </div>
+
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox">
+                    Lembrar minha senha
+                </label>
+                <a href="#">Esqueci minha senha</a>
+            </div>
+
+            <button type="submit">Entrar</button>
+
+            <div class="register-link">
+                <p>Ainda não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>    
         </form>
     </main>
 
-    
+
 </body>
 </html>
