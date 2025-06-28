@@ -61,3 +61,24 @@ body {
     font-size: 20px;
 }
 
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px ;
+}
+
+.remember-forgot label input {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
