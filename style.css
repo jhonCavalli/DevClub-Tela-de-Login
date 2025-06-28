@@ -23,6 +23,7 @@ body {
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
     color: #fff;
     padding: 30px 40px;
+    backdrop-filter: blur(36px);
 }
 
 .container h1 {
@@ -93,6 +94,7 @@ body {
     cursor: pointer;
     font-weight: 600;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
 }
 
 .login:hover {
@@ -100,4 +102,20 @@ body {
     border: 2px solid rgb(255, 255, 255, 0.2);
     color: #fff;
     transition: 0.5s;
+}
+
+.register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
 }
