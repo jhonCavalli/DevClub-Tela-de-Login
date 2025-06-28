@@ -49,3 +49,15 @@ body {
     border-radius: 40px;   
 }
 
+.input-box input::placeholder {
+    color: #c5c5c5;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
